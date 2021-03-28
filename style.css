@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body-upper {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -76,7 +76,7 @@ button:hover {
 
 /* Heading */
 h3,
-label[for="new-task"] {
+.new-task {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -104,12 +104,12 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="new-task"] {
+.new-task {
   display: block;
   margin: 0 0 20px;
 }
 
-input#new-task {
+.in-task {
   width: 318px;
 }
 
@@ -146,7 +146,7 @@ li > input[type="text"] {
   width: 226px;
 }
 
-li > button.delete:hover {
+.delete:hover {
   color: #cf2323;
 }
 
@@ -156,12 +156,12 @@ button.delete img {
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+.delete img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul.completed label {
   text-decoration: line-through;
   color: #888;
 }
