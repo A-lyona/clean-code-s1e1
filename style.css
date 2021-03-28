@@ -5,31 +5,31 @@
   font-family: Lato, sans-serif;
 }
 
-.upper {
+.body-upper__upper {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.upper img {
+.body-upper__upper img {
   width: 100%;
 }
 
-.upper, 
+.body-upper__upper, 
 .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
 
-.upper { 
+.body-upper__upper { 
   text-align: center;
 }
 
 }
 
-.main-upper {
+.body-upper__main-upper {
   display: block;
   width: 500px;
   margin: 0 auto 0;
